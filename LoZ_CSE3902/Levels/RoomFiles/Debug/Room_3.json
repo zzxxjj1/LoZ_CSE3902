@@ -1,0 +1,18 @@
+{
+  "ID": 3,
+  "Level": -1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "BlackSpace",
+  "DoorData": {
+    "Left": 0,
+    "Right": 1,
+    "Up": 2,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "Floor":[
+        {"X": 6, "Y": 3}
+	]
+  }
+}

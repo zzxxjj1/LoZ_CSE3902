@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+    <None Remove="Levels\RoomFiles\Debug\Mapping.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_1.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_2.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_3.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_4.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_5.json" />
+    <None Remove="Levels\RoomFiles\Debug\Room_6.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Mapping.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_-1.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_1.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_2.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_3.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_4.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_5.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_6.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_7.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_10.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_11.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_12.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_13.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_14.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_15.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_16.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_17.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_18.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_8.json" />
+    <None Remove="Levels\RoomFiles\Level_1\Room_9.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Levels\RoomFiles\Debug\Mapping.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Debug\Room_6.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Mapping.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_-1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_6.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_7.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_10.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_11.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_12.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_13.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_14.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_15.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_16.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_17.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_18.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_8.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\RoomFiles\Level_1\Room_9.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Levels\RoomFiles\Overworld\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Levels\RoomFiles\Level_1\Room_10.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

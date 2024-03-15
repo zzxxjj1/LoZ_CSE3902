@@ -1,0 +1,34 @@
+﻿{
+  "ID": 9,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 1,
+    "Right": 1,
+    "Up": 0,
+    "Down": 1
+  },
+  "ObjectDictionary": {
+    "Block": [
+      {
+        "X": 5,
+        "Y": 3
+      }
+    ],
+    "Gel": [
+      {
+        "X": 5,
+        "Y": 1
+      },
+      {
+        "X": 3,
+        "Y": 3
+      },
+      {
+        "X": 5,
+        "Y": 5
+      }
+    ]
+  }
+}

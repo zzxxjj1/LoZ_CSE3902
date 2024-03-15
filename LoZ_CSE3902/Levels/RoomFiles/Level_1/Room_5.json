@@ -1,0 +1,30 @@
+{
+  "ID": 5,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 0,
+    "Right": 3,
+    "Up": 2,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "Block": [
+      {"X": 5, "Y": 2},
+	  {"X": 5, "Y": 3},
+	  {"X": 5, "Y": 4},
+	  {"X": 6, "Y": 2},
+	  {"X": 6, "Y": 3},
+	  {"X": 6, "Y": 4}
+    ],
+	"Kesse": [
+      {"X": 0, "Y": 3},
+	  {"X": 1, "Y": 5},
+	  {"X": 3, "Y": 2},
+	  {"X": 3, "Y": 4},
+	  {"X": 8, "Y": 0},
+	  {"X": 8, "Y": 6}
+    ]
+  }
+}

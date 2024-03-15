@@ -1,0 +1,30 @@
+{
+  "ID": 6,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 1,
+    "Right": 1,
+    "Up": 5,
+    "Down": 1
+  },
+  "ObjectDictionary": {
+	"Block": [
+      {"X": 2, "Y": 2},
+	  {"X": 2, "Y": 4},
+	  {"X": 9, "Y": 2},
+	  {"X": 9, "Y": 4}
+    ],
+    "Stalfos": [
+      {"X": 8, "Y": 0},
+	  {"X": 5, "Y": 2},
+	  {"X": 7, "Y": 2},
+	  {"X": 6, "Y": 3},
+	  {"X": 3, "Y": 4}
+    ],
+	"Key": [
+	  {"X": 6, "Y": 1}
+	]
+  }
+}

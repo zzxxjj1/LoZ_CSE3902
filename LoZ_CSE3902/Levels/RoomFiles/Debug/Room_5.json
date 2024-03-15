@@ -1,0 +1,21 @@
+{
+  "ID": 5,
+  "Level": -1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "Sand",
+  "DoorData": {
+    "Left": 1,
+    "Right": 0,
+    "Up": 0,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "DragonBlockLeft":[
+		{"X": 3, "Y": 3}
+	],
+	"Boss":[
+		{"X": 7, "Y": 4}
+	]
+  }
+}

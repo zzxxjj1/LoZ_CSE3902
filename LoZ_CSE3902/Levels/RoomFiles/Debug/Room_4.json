@@ -1,0 +1,18 @@
+{
+  "ID": 4,
+  "Level": -1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 0,
+    "Right": 0,
+    "Up": 1,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "Water":[
+		{"X": 6, "Y": 3}
+	]
+  }
+}

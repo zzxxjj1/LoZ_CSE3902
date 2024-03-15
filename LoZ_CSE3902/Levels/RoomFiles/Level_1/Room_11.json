@@ -1,0 +1,46 @@
+﻿{
+  "ID": 11,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 1,
+    "Right": 1,
+    "Up": 0,
+    "Down": 5
+  },
+  "ObjectDictionary": {
+    "Block": [
+      {
+        "X": 2,
+        "Y": 2
+      },
+      {
+        "X": 2,
+        "Y": 4
+      },
+      {
+        "X": 9,
+        "Y": 2
+      },
+      {
+        "X": 9,
+        "Y": 4
+      }
+    ],
+    "Goriya": [
+      {
+        "X": 7,
+        "Y": 0
+      },
+      {
+        "X": 7,
+        "Y": 4
+      },
+      {
+        "X": 9,
+        "Y": 1
+      }
+    ]
+  }
+}

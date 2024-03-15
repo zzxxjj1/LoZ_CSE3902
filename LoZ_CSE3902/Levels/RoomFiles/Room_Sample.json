@@ -1,0 +1,69 @@
+{
+  "ID": 12,
+  "Level": 1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 0,
+    "Right": 3,
+    "Up": 2,
+    "Down": 1
+  },
+  "ObjectDictionary": {
+    "Block": [
+      {
+        "X": 1,
+        "Y": 1
+      },
+      {
+        "X": 10,
+        "Y": 1
+      },
+      {
+        "X": 1,
+        "Y": 5
+      },
+      {
+        "X": 10,
+        "Y": 5
+      }
+    ],
+    "Water": [
+      {
+        "X": 4,
+        "Y": 1
+      },
+      {
+        "X": 4,
+        "Y": 2
+      },
+      {
+        "X": 4,
+        "Y": 3
+      },
+      {
+        "X": 4,
+        "Y": 4
+      }
+    ],
+    "Gel": [
+      {
+        "X": 7,
+        "Y": 2
+      }
+    ],
+    "Key": [
+      {
+        "X": 7,
+        "Y": 3
+      }
+    ],
+    "Heart": [
+      {
+        "X": 7,
+        "Y": 4
+      }
+    ]
+  }
+}

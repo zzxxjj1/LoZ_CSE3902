@@ -1,0 +1,22 @@
+{
+  "ID": 2,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Floor",
+  "DoorData": {
+    "Left": 0,
+    "Right": 1,
+    "Up": 0,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "Kesse": [
+      {"X": 1, "Y": 1},
+	  {"X": 1, "Y": 5},
+	  {"X": 3, "Y": 2}
+    ],
+	"Key": [
+	  {"X": 8, "Y": 6}
+	]
+  }
+}

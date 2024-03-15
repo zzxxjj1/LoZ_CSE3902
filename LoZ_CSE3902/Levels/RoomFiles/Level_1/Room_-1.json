@@ -1,0 +1,59 @@
+{
+  "ID": -1,
+  "Level": 1,
+  "InUnderworld": true,
+  "DefaultTile": "Sand",
+  "DoorData": {
+    "Left": 0,
+    "Right": 0,
+    "Up": 1,
+    "Down": 0
+  },
+  "ObjectDictionary": {
+    "Rupee": [
+      {"X": 1, "Y": 1},
+	  {"X": 3, "Y": 1}
+    ],
+	"Key": [
+	  {"X": 1, "Y": 3},
+		{"X": 3,"Y": 3},
+		{"X": 5,"Y": 3}
+	],
+	"Bomb": [
+	  {"X": 1, "Y": 5},
+	  {"X": 3, "Y": 5}
+	],
+	"Bow": [
+	  {"X": 8, "Y": 1}
+	],
+	"Arrow": [
+	  {"X": 10, "Y": 1}
+	],
+	"HeartContainer": [
+      {"X": 7, "Y": 4},
+	  {"X": 7, "Y": 5},
+	  {"X": 8, "Y": 4},
+	  {"X": 8, "Y": 5}
+    ],
+	"Heart": [
+      {"X": 9, "Y": 4},
+	  {"X": 9, "Y": 5},
+	  {"X": 10, "Y": 4},
+	  {"X": 10, "Y": 5}
+    ],
+
+	// map & compass
+	"Map": [
+      {
+        "X": 2,
+        "Y": 6
+      }
+    ],
+	"Compass": [
+      {
+        "X": 3,
+        "Y": 6
+      }
+    ]
+  }
+}

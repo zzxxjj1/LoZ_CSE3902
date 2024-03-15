@@ -1,0 +1,18 @@
+{
+  "ID": 6,
+  "Level": -1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "Sand",
+  "DoorData": {
+    "Left": 0,
+    "Right": 0,
+    "Up": 0,
+    "Down": 1
+  },
+  "ObjectDictionary": {
+    "Triforce":[
+		{"X": 6, "Y": 3}
+	],
+  }
+}

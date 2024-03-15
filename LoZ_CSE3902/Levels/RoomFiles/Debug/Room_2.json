@@ -1,0 +1,42 @@
+{
+  "ID": 2,
+  "Level": -1,
+  "InUnderworld": true,
+  "WallDestructable": false,
+  "DefaultTile": "Sand",
+  "DoorData": {
+    "Left": 0,
+    "Right": 0,
+    "Up": 0,
+    "Down": 1
+  },
+  "ObjectDictionary": {
+    "Block":[
+		{"X": 6, "Y": 3}
+	],
+	"OldMan":[
+		{"X": 11, "Y": 0}
+	],
+	"Boomerang":[
+		{"X": 1, "Y": 1}
+	],
+	"Arrow":[
+		{"X": 1, "Y": 2}
+	],
+	"Bomb":[
+		{"X": 1, "Y": 3}
+	],
+	"Heart":[
+		{"X": 1, "Y": 4}
+	],
+	"Bow":[
+		{"X": 2, "Y": 2}
+	],
+	"Rupee":[
+		{"X": 3, "Y": 2}
+	],
+	"Rupee":[
+		{"X": 4, "Y": 2}
+	]
+  }
+}
